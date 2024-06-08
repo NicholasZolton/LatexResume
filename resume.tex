@@ -1,0 +1,269 @@
+\documentclass[11pt,letterpaper]{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lastpage}%
+%
+
+% Based off of the below:
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{lmodern}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+\usepackage[dvipsnames]{xcolor}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+% declare that the font can support any size
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\begin{document}%
+\normalsize%
+\begin{center}
+%
+    \textbf{\Huge \scshape Nicholas Zolton} \\ \vspace{1pt}
+%
+    \small \href{tel:281{-}913{-}9227}{\underline{281{-}913{-}9227}} $|$ 
+%
+    \small \href{mailto:nicholaszolton@gmail.com}{\underline{nicholaszolton@gmail.com}} $|$ 
+%
+\small \href{https://nicholaszolton.dev/}{\underline{nicholaszolton.dev/}} $|$ 
+%
+\small \href{https://github.com/NicholasZolton}{\underline{github.com/NicholasZolton}}
+%
+\end{center}
+%
+%-----------EDUCATION-----------
+%
+\section{Education}
+%
+\resumeSubHeadingListStart
+%
+\resumeSubheading
+%
+{University of Texas at Dallas}{}
+%
+{Bachelor of Science in Computer Science}{Current Junior}
+%
+\resumeSubHeadingListEnd
+%
+%-----------EXPERIENCE-----------
+%
+\section{Experience}
+%
+  \resumeSubHeadingListStart
+%
+    \resumeSubheading
+%
+      {Software Development Intern}{November 2022 – May 2023}
+%
+      {BenefitMall, subsidiary of Truist Financial Corporation}{Richardson, TX}
+%
+      \resumeItemListStart
+%
+        \resumeItem{Coordinated with multiple senior software developers to produce, test, and debug code.}
+%
+        \resumeItem{Participated in Agile and Scrum project management using Azure DevOps.}
+%
+      \resumeItemListEnd
+%
+    \resumeSubheading
+%
+      {Software Engineering Intern}{December 2021 – July 2022}
+%
+      {Brains4Drones}{Richardson, TX}
+%
+      \resumeItemListStart
+%
+        \resumeItem{Managed 2 vital projects for the companies' most recent products and spearheaded the use of Docker to improve code portability.}
+%
+        \resumeItem{Contributed through GitHub to new and existing internal company projects as well as external open{-}source projects such as YOLO v5.}
+%
+      \resumeItemListEnd
+%
+    \resumeSubheading
+%
+      {Programming Teacher}{August 2018 – March 2020}
+%
+      {Code Ninjas}{Houston, TX}
+%
+      \resumeItemListStart
+%
+        \resumeItem{Directed 6+ summer coding camps over topics including Robotics, Python, Java, and Lua.}
+%
+        \resumeItem{Created the curriculum for 5+ new subjects including Lua, Java, Python, Robotics, and Scratch.}
+%
+      \resumeItemListEnd
+%
+  \resumeSubHeadingListEnd
+%
+%-----------PROJECTS-----------
+%
+\section{Projects}
+%
+    \resumeSubHeadingListStart
+%
+      \resumeProjectHeading
+%
+          {\textbf{MedMate} $|$ \emph{}}{April 2023}
+%
+          \resumeItemListStart
+%
+            \resumeItem{Created a full stack mobile app using React Native and Flask.}
+%
+            \resumeItem{1st place overall project at Axxess' First Inaugural Hackathon.}
+%
+          \resumeItemListEnd
+%
+      \resumeProjectHeading
+%
+          {\textbf{Site In{-}Sight} $|$ \emph{}}{February 2023}
+%
+          \resumeItemListStart
+%
+            \resumeItem{Created a full stack website for prospective homeowners using Svelte, Flask, R, and TensorFlow.}
+%
+            \resumeItem{2nd place project for CBRE's Machine Learning Challenge at WEHack 2023.}
+%
+          \resumeItemListEnd
+%
+    \resumeSubHeadingListEnd
+%
+%-----------ACHIEVEMENTS SECTION-----------
+%
+\section{Achievements}
+%
+ \begin{itemize}[leftmargin=0.15in, label={}]
+%
+    \small{\item{
+%
+     \textbf{HackPrinceton 2023} \hfill {November 2023} \\
+%
+     \textbf{Axxess 2023 Hackathon} \hfill {April 2023} \\
+%
+     \textbf{HackUTA 2023} \hfill {October 2023} \\
+%
+     \textbf{WEHack 2023 Hackathon} \hfill {February 2023} \\
+%
+     \textbf{HackRICE 13 Hackathon} \hfill {September 2023} \\
+%
+     \textbf{UTD Dean's List} \hfill {2021 {-} 2023} \\
+%
+    }}
+%
+ \end{itemize}
+%
+%-----------PROGRAMMING SKILLS-----------
+%
+\section{Technical Skills}
+%
+ \begin{itemize}[leftmargin=0.15in, label={}]
+%
+    \small{\item{
+%
+     \textbf{Programming Languages}{: Git, Java, TypeScript, JavaScript, C++, C\#, HTML, CSS, Python, C} \\
+%
+     \textbf{Tools/Frameworks}{: NodeJS, FastAPI, Docker, React Native, SQL, Flask, React, Svelte} \\
+%
+    }}
+%
+ \end{itemize}
+%
+%-------------------------------------------
+%
+\end{document}
