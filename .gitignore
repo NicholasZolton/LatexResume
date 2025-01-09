@@ -5,6 +5,7 @@
 *.synctex.gz
 *.toc
 *.out 
+
 # Devenv
 .devenv*
 devenv.local.nix
