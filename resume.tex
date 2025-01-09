@@ -1,7 +1,7 @@
 \documentclass[11pt,letterpaper]{article}%
 \usepackage[T1]{fontenc}%
 \usepackage[utf8]{inputenc}%
-\usepackage{lastpage}%
+% \usepackage{lastpage}%
 %
 
 % Based off of the below:
@@ -14,7 +14,6 @@
 
 
 \usepackage{latexsym}
-\usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
@@ -26,6 +25,9 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 \usepackage{lmodern}
+
+% set all the margins to .15cm
+\usepackage[margin=1in]{geometry}
 
 %----------FONT OPTIONS----------
 % sans-serif
@@ -96,7 +98,7 @@
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-3pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -178,6 +180,22 @@
 
     \resumeSubheading
 %
+      {Software Consultant}{August 2024 - Present}
+%
+      {Spark Biomedical}{Dallas, TX}
+%
+      \resumeItemListStart
+%
+        \resumeItem{Worked alongside a team of 5 engineers to create an API, Database, Web Application, and Mobile Application to facilitate and automate many important business processes such as analytics and user management.}
+
+        \resumeItem{Architected infrastructure for conducting safe and secure remote clinical trials.}
+
+        \resumeItem{Developed and maintained extensive documentation while complying with HIPAA regulations and ensuring compliance with all relevant laws and regulations.}
+%
+      \resumeItemListEnd
+
+    \resumeSubheading
+%
       {Software Engineering Intern}{June 2024 - August 2024}
 %
       {Walmart Global Tech}{Bentonville, AR}
@@ -220,26 +238,14 @@
         \resumeItem{Contributed through GitHub to new and existing internal company projects as well as external open source projects including YOLOv5.}
 %
       \resumeItemListEnd
-%
-    \resumeSubheading
-%
-      {Programming Teacher}{August 2018 – March 2020}
-%
-      {Code Ninjas}{Houston, TX}
-%
-      \resumeItemListStart
-%
-        \resumeItem{Directed 6 summer coding camps over topics including Robotics, Python, Java, and Lua.}
-%
-        \resumeItem{Created the curriculum for 5+ new subjects including Lua, Java, Python, Robotics, and Scratch.}
-%
-      \resumeItemListEnd
-%
-  \resumeSubHeadingListEnd
+
+      \vspace{-5pt}
 %
 %-----------PROJECTS-----------
 %
 \section{Projects}
+
+      \vspace{-5pt}
 %
     \resumeSubHeadingListStart
 %
@@ -254,6 +260,8 @@
             \resumeItem{Created a full stack mobile healthcare app using React Native and Flask able to translate important medical knowledge between 40+ different languages.}
 %
           \resumeItemListEnd
+
+      \vspace{-8pt}
 %
       \resumeProjectHeading
 %
@@ -268,6 +276,7 @@
           \resumeItemListEnd
 %
     \resumeSubHeadingListEnd
+
 %
 %-----------ACHIEVEMENTS SECTION-----------
 %
@@ -277,9 +286,11 @@
 %
     \small{\item{
     
-        \textbf{Google Developer Student Club President} \hfill {2023 {-} 2024} \\
+    \textbf{Google Developer Student Club President} \hfill {2023 {-} 2024} \\
 %
      \textbf{HackPrinceton 2023 Finalist} \hfill {November 2023} \\
+
+     \textbf{HackRICE 13 Hackathon 2nd Place Environmental Hack} \hfill {September 2023} \\
 %
      \textbf{Axxess 2023 Hackathon Overall 1st Place} \hfill {April 2023} \\
 %
@@ -287,9 +298,8 @@
 %
      \textbf{WEHack 2023 Hackathon 2nd Place Machine Learning} \hfill {February 2023} \\
 %
-     \textbf{HackRICE 13 Hackathon 2nd Place Environmental Hack} \hfill {September 2023} \\
-%
-     \textbf{UTD Dean's List} \hfill {2021 {-} 2024} \\
+
+     \textbf{1st Place Engineering Capstone Project at UTD} \hfill {December 2024} \\
 %
     }}
 %
