@@ -27,7 +27,7 @@
 \usepackage{lmodern}
 
 % set all the margins to .15cm
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=0.9in]{geometry}
 
 %----------FONT OPTIONS----------
 % sans-serif
@@ -52,7 +52,7 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
+\addtolength{\topmargin}{-.6in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -63,7 +63,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-5pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -101,7 +101,7 @@
     \end{tabular*}\vspace{-3pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
@@ -175,14 +175,16 @@
       {Software Engineer II}{February 2025 - May 2025}
 %
       {Walmart Global Tech - Global Workforce Management Analytics Team}{Bentonville, AR}
-%
-      \resumeItemListStart
 
-        \resumeItem{Worked on the Global Workforce Management Analytics team to build and deploy core infrastructure for supporting business leadership decisions regarding labor demand and scheduling.}
+      \resumeItemListStart
 %
         \resumeItem{Spearheaded the integration of Walmart Canada into our analytics architecture for our team, which will save \$1,000,000s of dollars in third party contracts going forwards.}
 
-        \resumeItem{Utilized React and NodeJS to build and maintain a web application with over 60,000+ monthly active users.}
+        \resumeItem{Designed and implemented data pipelines using Apache Airflow and BigQuery to build and deploy core analytics infrastructure, enabling business leadership to make data-driven decisions regarding labor demand and scheduling.}
+%
+        \resumeItem{Built robust monitoring, alerting, and data correction processes to ensure metric accuracy for users, significantly improving reliability of business decision systems.}
+
+        \resumeItem{Utilized React, Node, and Redux to build and maintain a web application with over 60,000+ monthly active users.}
 %
       \resumeItemListEnd
 
@@ -225,9 +227,9 @@
 %
       \resumeItemListStart
 %
-        \resumeItem{Managed 2 vital projects for the companies' most recent products and spearheaded the use of Docker to improve code portability.}
+        \resumeItem{Spearheaded the use of Docker and in our embedded systems to improve code portability.}
 %
-        \resumeItem{Contributed through GitHub to new and existing internal company projects as well as external open source projects including YOLOv5.}
+        \resumeItem{Contributed to vital external open source projects including YOLOv5.}
 %
       \resumeItemListEnd
 %
@@ -237,6 +239,7 @@
 %
 \section{Projects}
 
+  \resumeSubHeadingListStart
       \vspace{-5pt}
 %
       \resumeProjectHeading
@@ -251,7 +254,7 @@
 %
           \resumeItemListEnd
 
-      \vspace{-8pt}
+      \vspace{-5pt}
 %
       \resumeProjectHeading
 %
