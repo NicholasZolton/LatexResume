@@ -1,5 +1,7 @@
 # Set Up
 
+## Windows
+
 If you are on Windows, I highly recommend doing the following:
 
 First, install and setup chocolatey.
@@ -19,6 +21,10 @@ Then, start the Miktex Console and switch to Administrator and run "check for up
 Finally, I highly recommend the following VS Code extensions:
 
 - LaTeX Workshop
+
+## OSX / Linux
+
+If you're on a non-windows platform, I still highly suggest the VSCode extension, but you can even use Nix/Devenv/Direnv to setup the dependencies automatically when you `cd` into the directory. Definitely check it out!
 
 # Credits
 
