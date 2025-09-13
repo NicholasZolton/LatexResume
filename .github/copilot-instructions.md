@@ -11,3 +11,5 @@ Always refer to https://www.reddit.com/r/EngineeringResumes/wiki/index/ using fe
 If you use something from the EngineeringResumes wiki, cite it.
 
 When finishing your response, always check for accuracy and completeness throughout the resume.
+
+Ensure that all LaTeX correctly escapes the necessary special characters such as %, $, #, &, _, {, }, ~, ^, and \.
