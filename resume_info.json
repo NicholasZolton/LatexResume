@@ -42,12 +42,13 @@
     {
       "company": "Happyverse",
       "location": "San Francisco, CA",
+      "context": "Rapid promotion from Founding Engineer to CTO occurred because I became invaluable to the team, acting as the former CTO's right hand. When they left, I was the natural successor due to my deep familiarity with all services and team workflows.",
       "roles": [
         {
           "title": "Chief Technology Officer",
           "dates": "October 2025 - Present",
           "bullets": [
-            "Oversaw and scaled a 15-engineer team, driving technical strategy, roadmap, and hiring to accelerate product delivery",
+            "Leading technical strategy for a $1.7M pre-seed startup backed by Village Global, Jeff Dean, and Nvidia's Inception",
             "Spearheaded strategic partnerships and integrations with NVIDIA, Google, AWS, and Azure to validate technical assumptions and accelerate product adoption"
           ]
         },
@@ -63,8 +64,8 @@
           "title": "Founding Software Engineer",
           "dates": "June 2025 - August 2025",
           "bullets": [
-            "Architected the real-time video-conferencing AI platform using WebRTC and Triton, with Python backend and gRPC services; rapidly grew product 1,000+ users with hundreds of AI conversations weekly",
-            "Built core React/TypeScript frontend and owned backend/infra, gRPC integrations, and Kubernetes orchestration"
+            "Architected distributed, real-time video-conferencing AI systems using WebRTC and Triton; rapidly grew product to 1,000+ users with hundreds of AI conversations weekly",
+            "Built a B2B web-app for tailoring real-time AI experiences, owning the React/TypeScript frontend, backend/infra, and Kubernetes orchestration"
           ]
         }
       ]
@@ -102,8 +103,7 @@
           "title": "Software Development Intern",
           "dates": "November 2022 – May 2023",
           "bullets": [
-            "Optimized C# and SQL stored procedures for W-2 services, reducing report generation time by up to 50%",
-            "Maintained and upgraded core .NET infrastructure for user-facing services, ensuring high availability and low latency"
+            "Optimized C# and SQL stored procedures for W-2 services, reducing report generation time by up to 50%"
           ]
         }
       ]
@@ -116,12 +116,8 @@
           "title": "Software Engineering Intern",
           "dates": "December 2021 - August 2022",
           "bullets": [
-            "Managed 2 vital projects for the company's most recent products",
-            "Increased the performance of vision-inferencing AI by up to 400%+ on all company products",
-            "Decreased reliance on shortage-ridden hardware during the COVID pandemic for up to 50% of the company's products",
-            "Contributed to new and existing internal company projects and Ultralytics’ YoloV5 via GitHub with 40+ contributions",
-            "Pioneered the use of OpenVINO, YoloV5, TensorRT, and other vision-inferencing frameworks on CPU and GPU hardware",
-            "Developed over 5,000 lines of production code"
+            "Pioneered use of OpenVINO, YoloV5, and TensorRT to increase vision-inferencing AI performance by 400%+ across all products",
+            "Managed two vital projects and developed 5,000+ lines of production code, decreasing reliance on shortage-ridden hardware by 50%"
           ]
         }
       ]

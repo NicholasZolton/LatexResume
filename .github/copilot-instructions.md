@@ -15,7 +15,9 @@
 - When reviewing your work, pretend that you are a hiring manager at a top tech company, and ensure that the resume meets the highest standards
 - Ensure that you keep in mind the "F" pattern of reading (meaning that humans tend to read in an "F" shape, focusing on the top and left side of the page more than the bottom and right side)
 - ALWAYS optimize the resume for keywords. If the user provides a job description, pretend that you are the hiring manager for that job, and ensure that the resume is optimized for the keywords in that job description. Use info from `resume_info.json` to help with this
+- Do not worry about the https:// in the URLs; this will be removed visually when the resume is compiled
 
 # Resume Info
 - Always ensure that any information about the user is stored in `resume_info.json`, so that if we remove it from the resume, we still have it for future reference
 - DO NOT remove things from `resume_info.json` unless the user explicitly requests it. This should act as a database for all of the user's resume information, regardless of whether or not it is currently on the resume
+- Context fields that are stored in `resume_info.json` should be used to help write better bullet points and improve the resume overall, but are not to be included on the resume itself unless the user explicitly requests it
