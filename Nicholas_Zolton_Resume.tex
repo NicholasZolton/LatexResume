@@ -1,4 +1,4 @@
-\documentclass[11pt,letterpaper]{article}%
+\documentclass[10pt,letterpaper]{article}%
 \usepackage[T1]{fontenc}%
 \usepackage[utf8]{inputenc}%
 % \usepackage{lastpage}%
@@ -27,7 +27,7 @@
 \usepackage{lmodern}
 
 % set all the margins to .15cm
-\usepackage[margin=0.9in]{geometry}
+\usepackage[margin=0.5in]{geometry}
 
 %----------FONT OPTIONS----------
 % sans-serif
@@ -49,11 +49,11 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.6in}
-\addtolength{\textheight}{1.0in}
+% \addtolength{\oddsidemargin}{-0.5in}
+% \addtolength{\evensidemargin}{-0.5in}
+% \addtolength{\textwidth}{1in}
+% \addtolength{\topmargin}{-.6in}
+% \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
 
@@ -118,7 +118,7 @@
 \normalsize%
 \begin{center}
 %
-    \textbf{\Huge \scshape Nicholas Zolton} \\ \vspace{1pt}
+  {\Huge\bfseries Nicholas Zolton} \\ \vspace{1pt}
 %
     \small \href{tel:281{-}913{-}9227}{\underline{281{-}913{-}9227}} $|$ 
 %
@@ -157,21 +157,27 @@
 %
   \resumeSubHeadingListStart
 
-    \resumeSubheading
-%
-      {Founding Software Engineer}{June 2025 - Present}
-%
-      {Happyverse}{San Francisco, CA}
+  \resumeSubheading
+    {Chief Technology Officer}{October 2025 - Present}
+    {Happyverse}{San Francisco, CA}
+  \resumeItemListStart
+    \resumeItem{Oversaw and scaled a 15-engineer team, driving technical strategy, roadmap, and hiring to accelerate product delivery}
+    \resumeItem{Spearheaded strategic partnerships and integrations with NVIDIA, Google, AWS, and Azure to validate technical assumptions and accelerate product adoption}
+  \resumeItemListEnd
 
-      \resumeItemListStart
-%
-	  \resumeItem{Architected and launched a distributed, real-time video-conferencing AI platform using WebRTC and Nvidia Triton, supporting 100+ concurrent users and powering interactive business solutions for SMB clients}
+  \resumeSubSubheading
+    {\textbf{Head of Engineering}}{September 2025 - October 2025}
+  \resumeItemListStart
+    \resumeItem{Implemented agentic solutions including knowledge retrieval, MCP integration, and interactive screen features, resulting in a significant increase in pilot user engagement and retention}
+    \resumeItem{Reduced GPU inference costs by 75\% without affecting broader quality benchmarks by optimizing model infrastructure and enabling distributed, parallelizable inferencing solutions}
+  \resumeItemListEnd
 
-	  \resumeItem{Led development of a React and Node.js web application enabling businesses to deliver personalized, AI-driven video and audio avatar experiences, increasing user engagement and retention by 20\% across pilot customers}
-
-        \resumeItem{Achieved \$1.7M pre-seed funding for the company by demonstrating technical innovation, strong product-market fit, and assembling a high-performing engineering team to accelerate product delivery}
-
-      \resumeItemListEnd
+  \resumeSubSubheading
+    {\textbf{Founding Software Engineer}}{June 2025 - August 2025}
+  \resumeItemListStart
+    \resumeItem{Architected the real-time video-conferencing AI platform using WebRTC and Triton, with Python backend and gRPC services; rapidly grew product 1,000+ users with hundreds of AI conversations weekly}
+    \resumeItem{Built core React/TypeScript frontend and owned backend/infra, gRPC integrations, and Kubernetes orchestration}
+  \resumeItemListEnd
 
     \resumeSubheading
 %
@@ -180,15 +186,13 @@
       {Walmart Global Tech - Global Workforce Management Analytics Team}{Bentonville, AR}
 
       \resumeItemListStart
-%
-        \resumeItem{Eliminated \$1,000,000s in third-party contract costs by integrating Walmart Canada into our analytics platform}
 
-        \resumeItem{Designed and implemented data pipelines using Apache Airflow and BigQuery to build and deploy core analytics infrastructure, enabling business leadership to make data-driven decisions regarding labor demand and scheduling}
+        \resumeItem{Integrated Walmart Canada into analytics platform, eliminating multi-million-dollar third-party costs}
 
-        \resumeItem{Established robust monitoring, alerting, and data correction processes, focusing on key Golden Signals to ensure metric accuracy and significantly improve the reliability of business decision systems}
+        \resumeItem{Built data pipelines with Airflow/BigQuery and improved frontend performance for a web app serving 60k daily users}
 
-        \resumeItem{Enhanced performance and delivered key features for a web application serving 60,000 daily active users by leveraging React, Node, and Redux, improving user satisfaction and system reliability}
-%
+        \resumeItem{Developed and deployed critical infrastructure components using Java Spring for the Global Workforce Management Demand team, directly facilitating the automatic scheduling of 2.3 million associates worldwide}
+
       \resumeItemListEnd
 
     \resumeSubheading
@@ -198,8 +202,6 @@
       {Walmart Global Tech - Global Workforce Management Demand Team}{Bentonville, AR}
 %
       \resumeItemListStart
-
-        \resumeItem{Developed and deployed critical infrastructure components using Java Spring for the Global Workforce Management Demand team, directly facilitating the automatic scheduling of 2.3 million associates worldwide}
 %
         \resumeItem{Spearheaded Java Spring microservice for critical task automation, saving 10s of monthly labor hours}
 
@@ -212,7 +214,7 @@
 %
       {Software Development Intern}{November 2022 – May 2023}
 %
-      {Truist Financial Corporation}{Richardson, TX}
+      {BenefitMall}{Richardson, TX}
 %
       \resumeItemListStart
 
@@ -220,6 +222,14 @@
 %
       \resumeItem{Maintained and upgraded core .NET infrastructure for user-facing services, ensuring high availability and low latency}
 %
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineering Intern}{December 2021 - August 2022}
+      {Brains4Drones}{Dallas, TX}
+      \resumeItemListStart
+        \resumeItem{Pioneered use of OpenVINO, YoloV5, and TensorRT to increase embedded vision-inferencing AI performance by 400\%+}
+        \resumeItem{Managed two vital projects and developed 5,000+ lines of production code, removing reliance on shortage-ridden hardware}
       \resumeItemListEnd
 %
   \resumeSubHeadingListEnd
@@ -269,21 +279,10 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
 %
     \small{\item{
-
-     \textbf{1st Place Engineering Capstone Project at UTD} \hfill {December 2024} \\
-    
-    \textbf{Google Developer Student Club President} \hfill {2023 {-} 2024} \\
-%
-     \textbf{HackPrinceton 2023 Finalist} \hfill {November 2023} \\
-
-     \textbf{HackRICE 13 Hackathon 2nd Place Environmental Hack} \hfill {September 2023} \\
-%
-     \textbf{Axxess 2023 Hackathon Overall 1st Place} \hfill {April 2023} \\
-%
-     \textbf{HackUTA 2023 Overall 2nd Place} \hfill {October 2023} \\
-%
-     \textbf{WEHack 2023 Hackathon 2nd Place Machine Learning} \hfill {February 2023} \\
-%
+     \textbf{1st Place Gemini x Pipecat (\$100,000 prize)} \hfill {October 2025} \\
+     \textbf{1st Place Engineering Capstone Project at UTD} \hfill {Dec 2024} \\
+     \textbf{Google Developer Student Club President} \hfill {2023 -- 2024} \\
+     \textbf{HackPrinceton 2023 Finalist} \hfill {Nov 2023} \\
     }}
 %
  \end{itemize}

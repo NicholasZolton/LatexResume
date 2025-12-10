@@ -1,0 +1,175 @@
+{
+  "name": "Nicholas Zolton",
+  "contact": {
+    "phone": "281-913-9227",
+    "email": "nicholaszolton@gmail.com",
+    "website": "https://nicholaszolton.dev/",
+    "github": "https://github.com/NicholasZolton"
+  },
+  "education": [
+    {
+      "institution": "University of Texas at Dallas",
+      "degree": "Bachelor of Science in Computer Science",
+      "graduation_date": "December 2024",
+      "gpa": "4.0"
+    }
+  ],
+  "skills": {
+    "languages": [
+      "Java",
+      "C#",
+      "C++",
+      "C",
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
+    "tools_frameworks": [
+      "React",
+      "React Native",
+      "NodeJS",
+      "Spring",
+      "Docker",
+      "Kubernetes",
+      "FastAPI",
+      "Flask",
+      "Svelte"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Happyverse",
+      "location": "San Francisco, CA",
+      "roles": [
+        {
+          "title": "Chief Technology Officer",
+          "dates": "October 2025 - Present",
+          "bullets": [
+            "Oversaw and scaled a 15-engineer team, driving technical strategy, roadmap, and hiring to accelerate product delivery",
+            "Spearheaded strategic partnerships and integrations with NVIDIA, Google, AWS, and Azure to validate technical assumptions and accelerate product adoption"
+          ]
+        },
+        {
+          "title": "Head of Engineering",
+          "dates": "September 2025 - October 2025",
+          "bullets": [
+            "Implemented agentic solutions including knowledge retrieval, MCP integration, and interactive screen features, resulting in a significant increase in pilot user engagement and retention",
+            "Reduced GPU inference costs by 75% without affecting broader performance by optimizing model infrastructure and enabling distributed, parallelizable inferencing solutions"
+          ]
+        },
+        {
+          "title": "Founding Software Engineer",
+          "dates": "June 2025 - August 2025",
+          "bullets": [
+            "Architected the real-time video-conferencing AI platform using WebRTC and Triton, with Python backend and gRPC services; rapidly grew product 1,000+ users with hundreds of AI conversations weekly",
+            "Built core React/TypeScript frontend and owned backend/infra, gRPC integrations, and Kubernetes orchestration"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Walmart Global Tech",
+      "location": "Bentonville, AR",
+      "roles": [
+        {
+          "title": "Software Engineer",
+          "team": "Global Workforce Management Analytics Team",
+          "dates": "February 2025 - June 2025",
+          "bullets": [
+            "Integrated Walmart Canada into analytics platform, eliminating multi-million-dollar third-party costs",
+            "Built data pipelines with Airflow/BigQuery and improved frontend performance for a web app serving 60k daily users",
+            "Developed and deployed critical infrastructure components using Java Spring for the Global Workforce Management Demand team, directly facilitating the automatic scheduling of 2.3 million associates worldwide"
+          ]
+        },
+        {
+          "title": "Software Engineering Intern",
+          "team": "Global Workforce Management Demand Team",
+          "dates": "June 2024 - August 2024",
+          "bullets": [
+            "Spearheaded Java Spring microservice for critical task automation, saving 10s of monthly labor hours",
+            "Reduced tech debt by 30% across team projects through legacy code refactoring, improving development velocity and lowering maintenance costs"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "BenefitMall",
+      "location": "Richardson, TX",
+      "roles": [
+        {
+          "title": "Software Development Intern",
+          "dates": "November 2022 – May 2023",
+          "bullets": [
+            "Optimized C# and SQL stored procedures for W-2 services, reducing report generation time by up to 50%",
+            "Maintained and upgraded core .NET infrastructure for user-facing services, ensuring high availability and low latency"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Brains4Drones",
+      "location": "Dallas, TX",
+      "roles": [
+        {
+          "title": "Software Engineering Intern",
+          "dates": "December 2021 - August 2022",
+          "bullets": [
+            "Managed 2 vital projects for the company's most recent products",
+            "Increased the performance of vision-inferencing AI by up to 400%+ on all company products",
+            "Decreased reliance on shortage-ridden hardware during the COVID pandemic for up to 50% of the company's products",
+            "Contributed to new and existing internal company projects and Ultralytics’ YoloV5 via GitHub with 40+ contributions",
+            "Pioneered the use of OpenVINO, YoloV5, TensorRT, and other vision-inferencing frameworks on CPU and GPU hardware",
+            "Developed over 5,000 lines of production code"
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Sparrow Link",
+      "tech_stack": "FastAPI, Postgres, React, Typescript",
+      "date": "December 2024",
+      "bullets": [
+        "1st place Engineering Capstone project at The University of Texas at Dallas",
+        "Developed a remote research platform for Spark Biomedical, accelerating clinical trials and data collection for their neuro-stimulation device, and enabling secure remote access to medical technology"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "1st Place Gemini x Pipecat ($100,000 prize)",
+      "date": "October 2025"
+    },
+    {
+      "title": "1st Place Engineering Capstone Project at UTD",
+      "date": "Dec 2024"
+    },
+    {
+      "title": "Google Developer Student Club President",
+      "date": "2023 -- 2024"
+    },
+    {
+      "title": "HackPrinceton 2023 Finalist",
+      "date": "Nov 2023"
+    },
+    {
+      "title": "HackRICE 13 2nd Place Environmental Hack",
+      "date": "Sept 2023"
+    },
+    {
+      "title": "Axxess 2023 Overall 1st Place",
+      "date": "Apr 2023"
+    },
+    {
+      "title": "HackUTA 2023 Overall 2nd Place",
+      "date": "Oct 2023"
+    },
+    {
+      "title": "WEHack 2023 2nd Place Machine Learning",
+      "date": "Feb 2023"
+    }
+  ]
+}
